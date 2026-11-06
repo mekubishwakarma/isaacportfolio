@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1 align="center">Portfolio Website</h1>
+     <p align="center">Turning vision into reality</p>
+        </header>           
+<main>
+    <section id="create" class="form-section">
+
+        <div class="section-heading">
+            <span class="tag">GET STARTED</span>
+            <h2>Create your portfolio</h2>
+            <p>Enter your details below.</p>
+        </div>
+
+        <form id="portfolioForm">
+
+            <div class="form-grid">
+
+                <div class="field">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name"
+                    placeholder="Enter your name" required>
+                </div>
+
+                <div class="field">
+                    <label for="college">College Name</label>
+                    <input type="text" id="college"
+                    placeholder="Your college">
+                </div>
+
+                <div class="field">
+                    <label for="course">Course</label>
+                    <input type="text" id="course"
+                    placeholder="BCA, B.Sc, etc.">
+                </div>
+
+                <div class="field">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email"
+                    placeholder="you@example.com">
+                </div>
+
+                <div class="field">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone"
+                    placeholder="Your phone number">
+                </div>
+
+                <div class="field">
+                    <label for="location">Location</label>
+                    <input type="text" id="location"
+                    placeholder="Your city">
+                </div>
+
+                <div class="field full">
+                    <label for="about">About Me</label>
+                    <textarea id="about" rows="4"
+                    placeholder="Write something about yourself..."></textarea>
+                </div>
+
+                <div class="field full">
+                    <label for="skills">Skills</label>
+                    <textarea id="skills" rows="3"
+                    placeholder="HTML, CSS, JavaScript, Communication..."></textarea>
+                </div>
+
+                <div class="field full">
+                    <label for="projects">Projects</label>
+                    <textarea id="projects" rows="4"
+                    placeholder="Describe your projects and achievements..."></textarea>
+                </div>
+
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Create Portfolio →
+            </button>
+
+            <p id="message"></p>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <a href="/" class="logo">Portfolio<span>.</span></a>
+    <p>Designed to showcase your potential </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
